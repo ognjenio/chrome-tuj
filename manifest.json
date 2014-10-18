@@ -1,0 +1,16 @@
+{
+  "name": "tuj",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "WoW Auction House and Wowhead links on TUJ pages.",
+  "content_scripts": [
+    {
+      "css": ["style.css"],
+      "matches": ["https://theunderminejournal.com/*"],
+      "js": ["jquery.min.js", "main.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": ["wowhead.png", "wow.ico"],
+  "permissions": ["tabs"]
+}

@@ -1,0 +1,35 @@
+.util{
+  float: right;
+}
+
+.util img {
+  margin-left: 3px;
+}
+
+.util .qualifier{
+  display: block;
+  height: 16px;
+  min-width: 25px;
+  background-color: white;
+  float: left;
+  font-family: monospace;
+  font-size: 9px;
+  line-height: 16px;
+  width: 70px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+
+}
+
+.util .qualifier.high{
+  background-color: #00904B;
+}
+
+.util .qualifier.medium{
+  background-color: #EEBA4C;
+}
+
+.util .qualifier.low{
+  background-color: #E3493B;
+}
